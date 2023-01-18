@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Welcome to the CESM Tutorial &#8212; CESM Tutorial</title>
+    <title>Welcome to the CESM Tutorial! &#8212; CESM Tutorial</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,7 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Welcome to the CESM Tutorial!" href="notebooks/introduction.html" />
+    <link rel="next" title="Using Jupyter Notebooks" href="notebooks/introduction.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -108,7 +108,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Welcome to the CESM Tutorial
+                    Welcome to the CESM Tutorial!
                 </a>
             </li>
         </ul>
@@ -120,7 +120,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="notebooks/introduction.html">
-   Welcome to the CESM Tutorial!
+   Using Jupyter Notebooks
   </a>
  </li>
 </ul>
@@ -358,6 +358,35 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/NCAR/CESM-Tutorial/main?urlpath=tree/docs/README.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
 <button onclick="toggleFullScreen()"
   class="headerbtn"
   data-toggle="tooltip"
@@ -425,7 +454,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/README.md"
+        <a href="_sources/README.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -436,7 +465,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="headerbtn__text-container">.ipynb</span>
 </a>
 
       </li>
@@ -474,7 +503,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Welcome to the CESM Tutorial</h1>
+                <h1>Welcome to the CESM Tutorial!</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -487,13 +516,11 @@ title="Print to PDF"
               <div>
                 
   <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-the-cesm-tutorial">
-<h1>Welcome to the <a class="reference external" href="https://ncar.github.io/CESM-Tutorial/README.html">CESM Tutorial</a><a class="headerlink" href="#welcome-to-the-cesm-tutorial" title="Permalink to this headline">#</a></h1>
-<p><br><br></p>
-<p>Total placeholder for now</p>
-<p><br><br></p>
-<div>
-<p>This material is based upon work supported by the National Center for Atmospheric Research (NCAR), which is a major facility sponsored by the National Science Foundation (NSF) under Cooperative Agreement No. 1852977. Staff time on this project was also supported by NSF award numbers <???></p>
-<div class="toctree-wrapper compound">
+<h1>Welcome to the CESM Tutorial!<a class="headerlink" href="#welcome-to-the-cesm-tutorial" title="Permalink to this headline">#</a></h1>
+<p>This tutorial is an introduction to running the <a class="reference external" href="https://www.cesm.ucar.edu">Community Earth Systems Model (CESM)</a>.  Our approach with this material is to give you short, self-contained training sessions that contain interactive examples of how to run and use the model and its tools.  If you’re new to Jupyter notebooks, we’ll have a very brief primer below.</p>
+<p>We know everyone has a different level of familiarity with CESM, supercomputers, Jupyter notebooks and earth system science in general – we want you to comfortably explore this material at your <em>own pace</em>.  Chapters can be done in any order, so feel free to jump around if you like.  The default order should bring you up to speed from simpler to more complex lessons, and is a good starting point.</p>
+<p>We’re happy to answer any questions you have, or talk in more detail about your research needs, and we’re always happy to get feedback on how to improve this material for future lessons, so please share your thoughts.  Most of all, we’re excited for your interest in earth system modeling, and look forward to helping you get started!</p>
+<div><div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
 </div>
@@ -520,16 +547,16 @@ title="Print to PDF"
         },
         codeMirrorConfig: {
             theme: "abcdef",
-            mode: "python"
+            mode: "bash"
         },
         kernelOptions: {
-            kernelName: "python3",
+            kernelName: "bash",
             path: "./."
         },
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'python3'</script>
+    <script>kernelName = 'bash'</script>
 
               </div>
               
@@ -541,7 +568,7 @@ title="Print to PDF"
     <a class='right-next' id="next-link" href="notebooks/introduction.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Welcome to the CESM Tutorial!</p>
+        <p class="prev-next-title">Using Jupyter Notebooks</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
