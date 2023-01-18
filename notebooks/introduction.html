@@ -6,54 +6,54 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Your first CESM run &#8212; CESM Tutorial</title>
+    <title>Welcome to the CESM Tutorial! &#8212; CESM Tutorial</title>
     
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
-    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
   <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
   <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/clipboard.min.js"></script>
-    <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../../_static/togglebutton.js"></script>
+    <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/design-tabs.js"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
-    <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Starting &amp; stopping a run" href="../modifications/simple/start_stop.html" />
-    <link rel="prev" title="Downloading CESM" href="downloading.html" />
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Downloading CESM" href="basics/downloading.html" />
+    <link rel="prev" title="Welcome to the CESM Tutorial" href="../README.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -88,19 +88,19 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="bd-sidebar noprint" id="site-navigation">
     <div class="bd-sidebar__content">
         <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../../index.html">
+    <a class="navbar-brand text-wrap" href="../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
         
       
       
-      <img src="../../_static/ncar_logo.png" class="logo" alt="logo">
+      <img src="../_static/ncar_logo.png" class="logo" alt="logo">
       
       
       <h1 class="site-logo" id="site-title">CESM Tutorial</h1>
       
     </a>
-</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
@@ -108,7 +108,7 @@ const thebe_selector_output = ".output, .cell_output"
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
-                <a class="reference internal" href="../../README.html">
+                <a class="reference internal" href="../README.html">
                     Welcome to the CESM Tutorial
                 </a>
             </li>
@@ -118,9 +118,9 @@ const thebe_selector_output = ".output, .cell_output"
   Introduction
  </span>
 </p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../introduction.html">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Welcome to the CESM Tutorial!
   </a>
  </li>
@@ -130,14 +130,14 @@ const thebe_selector_output = ".output, .cell_output"
   The Basics of Running CESM
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="downloading.html">
+  <a class="reference internal" href="basics/downloading.html">
    Downloading CESM
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="basics/running.html">
    Your first CESM run
   </a>
  </li>
@@ -149,27 +149,27 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../modifications/simple/start_stop.html">
+  <a class="reference internal" href="modifications/simple/start_stop.html">
    Starting &amp; stopping a run
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../modifications/simple/restart.html">
+  <a class="reference internal" href="modifications/simple/restart.html">
    Restarting a run
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../modifications/simple/run_length.html">
+  <a class="reference internal" href="modifications/simple/run_length.html">
    Changing the run length
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../modifications/simple/run_type.html">
+  <a class="reference internal" href="modifications/simple/run_type.html">
    Run types: hybrid, branch, restart
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../modifications/simple/changing_timestep.html">
+  <a class="reference internal" href="modifications/simple/changing_timestep.html">
    Changing the time-step
   </a>
  </li>
@@ -181,12 +181,12 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../modifications/namelist/basic.html">
+  <a class="reference internal" href="modifications/namelist/basic.html">
    Basics of namelist modification
   </a>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../modifications/namelist/output.html">
+  <a class="reference internal" href="modifications/namelist/output.html">
    How to customize output
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
@@ -196,17 +196,17 @@ const thebe_selector_output = ".output, .cell_output"
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../modifications/namelist/output/frequency.html">
+    <a class="reference internal" href="modifications/namelist/output/frequency.html">
      Changing output frequency
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../modifications/namelist/output/files.html">
+    <a class="reference internal" href="modifications/namelist/output/files.html">
      Adding extra history files
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../modifications/namelist/output/variables.html">
+    <a class="reference internal" href="modifications/namelist/output/variables.html">
      Adding new variables
     </a>
    </li>
@@ -220,17 +220,17 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../modifications/source/basic.html">
+  <a class="reference internal" href="modifications/source/basic.html">
    The basics of source code modifications
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../modifications/source/addfld.html">
+  <a class="reference internal" href="modifications/source/addfld.html">
    How to add a new field to history files
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../modifications/source/physics.html">
+  <a class="reference internal" href="modifications/source/physics.html">
    How to modify some physics routine (need to pick one!)
   </a>
  </li>
@@ -242,7 +242,7 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../troubleshooting.html">
+  <a class="reference internal" href="troubleshooting.html">
    Troubleshooting
   </a>
  </li>
@@ -254,17 +254,17 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../diagnostics/plot_fields.html">
+  <a class="reference internal" href="diagnostics/plot_fields.html">
    Plotting fields (matplotlib?)
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../diagnostics/regridding.html">
+  <a class="reference internal" href="diagnostics/regridding.html">
    Regridding output
   </a>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../diagnostics/packages.html">
+  <a class="reference internal" href="diagnostics/packages.html">
    CESM Diagnostics Packages
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
@@ -274,12 +274,12 @@ const thebe_selector_output = ".output, .cell_output"
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../diagnostics/packages/adf.html">
+    <a class="reference internal" href="diagnostics/packages/adf.html">
      The Atmosphere Diagnostics Framework (ADF)
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../diagnostics/packages/other.html">
+    <a class="reference internal" href="diagnostics/packages/other.html">
      Some other diagnostics code..
     </a>
    </li>
@@ -293,22 +293,22 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../tools/jupyter.html">
+  <a class="reference internal" href="tools/jupyter.html">
    Jupyter Notebooks
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../tools/python.html">
+  <a class="reference internal" href="tools/python.html">
    Python
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../tools/netcdf.html">
+  <a class="reference internal" href="tools/netcdf.html">
    NetCDF Tools
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../tools/github.html">
+  <a class="reference internal" href="tools/github.html">
    Github
   </a>
  </li>
@@ -367,7 +367,7 @@ title="Toggle navigation"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://mybinder.org/v2/gh/NCAR/CESM-Tutorial/main?urlpath=tree/docs/notebooks/basics/running.ipynb"
+        <a href="https://mybinder.org/v2/gh/NCAR/CESM-Tutorial/main?urlpath=tree/docs/notebooks/introduction.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -377,7 +377,7 @@ title="Launch on Binder"
 
 <span class="headerbtn__icon-container">
   
-    <img src="../../_static/images/logo_binder.svg">
+    <img src="../_static/images/logo_binder.svg">
   </span>
 <span class="headerbtn__text-container">Binder</span>
 </a>
@@ -427,7 +427,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/NCAR/CESM-Tutorial/issues/new?title=Issue%20on%20page%20%2Fnotebooks/basics/running.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/NCAR/CESM-Tutorial/issues/new?title=Issue%20on%20page%20%2Fnotebooks/introduction.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -455,7 +455,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../../_sources/notebooks/basics/running.ipynb"
+        <a href="../_sources/notebooks/introduction.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -515,42 +515,23 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#creating-a-cesm-case">
-   1. Creating a CESM case
+  <a class="reference internal nav-link" href="#using-jupyter-notebooks">
+   Using Jupyter Notebooks
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercise-1">
-     Exercise 1
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercise-2">
-     Exercise 2
-    </a>
-   </li>
-  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#compiling-the-case">
-   3. Compiling the case
+  <a class="reference internal nav-link" href="#documentation-hints-solutions">
+   Documentation, Hints &amp; Solutions
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercise-3">
-     Exercise 3
-    </a>
-   </li>
-  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#running-your-case">
-   4. Running your case
+  <a class="reference internal nav-link" href="#summary">
+   Summary
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercise-6">
-     Exercise 6
+    <a class="reference internal nav-link" href="#should-we-add-a-link-to-the-next-one-here-possibly">
+     ?? Should we add a link to the next one here?  Possibly.
     </a>
    </li>
   </ul>
@@ -564,7 +545,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Your first CESM run</h1>
+                <h1>Welcome to the CESM Tutorial!</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -575,42 +556,23 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#creating-a-cesm-case">
-   1. Creating a CESM case
+  <a class="reference internal nav-link" href="#using-jupyter-notebooks">
+   Using Jupyter Notebooks
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercise-1">
-     Exercise 1
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercise-2">
-     Exercise 2
-    </a>
-   </li>
-  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#compiling-the-case">
-   3. Compiling the case
+  <a class="reference internal nav-link" href="#documentation-hints-solutions">
+   Documentation, Hints &amp; Solutions
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercise-3">
-     Exercise 3
-    </a>
-   </li>
-  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#running-your-case">
-   4. Running your case
+  <a class="reference internal nav-link" href="#summary">
+   Summary
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercise-6">
-     Exercise 6
+    <a class="reference internal nav-link" href="#should-we-add-a-link-to-the-next-one-here-possibly">
+     ?? Should we add a link to the next one here?  Possibly.
     </a>
    </li>
   </ul>
@@ -625,88 +587,49 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="your-first-cesm-run">
-<h1>Your first CESM run<a class="headerlink" href="#your-first-cesm-run" title="Permalink to this headline">#</a></h1>
-<p>This is a very quick introduction to running the climate model CESM. It will guide you through the basics of running CESM. <br>
-Today, we will run a simulation. Tomorrow, we will look at the data you produced.</p>
-<hr class="docutils" />
-<section id="creating-a-cesm-case">
-<h2>1. Creating a CESM case<a class="headerlink" href="#creating-a-cesm-case" title="Permalink to this headline">#</a></h2>
-<p>CESM experiments start with creating a <strong>case</strong> with a specific configuration of CESM (<strong>compset</strong>) and at a particular <strong>resolution</strong>.</p>
-<p>For instance, here is the command to create a CESM case called <strong>case0</strong> with <br></p>
-<ul>
-    <li>compset:    B1850</li>
-    <li>resolution: f19_g17</li>
-</ul><p><img alt="image" src="notebooks/basics/images/running_image.png" /></p>
-<section id="exercise-1">
-<h3>Exercise 1<a class="headerlink" href="#exercise-1" title="Permalink to this headline">#</a></h3>
-<p>Create and run a B1850 case at f19_g17 resolution, calling your case ‘case01’:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-the-cesm-tutorial">
+<h1>Welcome to the CESM Tutorial!<a class="headerlink" href="#welcome-to-the-cesm-tutorial" title="Permalink to this headline">#</a></h1>
+<p>This tutorial is an introduction to running the <a class="reference external" href="https://www.cesm.ucar.edu">Community Earth Systems Model (CESM)</a>.  Our approach with this material is to give you short, self-contained training sessions that contain interactive examples of how to run and use the model and its tools.  If you’re new to Jupyter notebooks, we’ll have a very brief primer below.</p>
+<p>We know everyone has a different level of familiarity with CESM, supercomputers, Jupyter notebooks and earth system science in general – we want you to comfortably explore this material at your <em>own pace</em>.  Chapters can be done in any order, so feel free to jump around if you like.  The default order should bring you up to speed from simpler to more complex lessons, and is a good starting point.</p>
+<p>We’re happy to answer any questions you have, or talk in more detail about your research needs, and we’re always happy to get feedback on how to improve this material for future lessons, so please share your thoughts.  Most of all, we’re excited for your interest in earth system modeling, and look forward to helping you get started!</p>
+<div><section id="using-jupyter-notebooks">
+<h2>Using Jupyter Notebooks<a class="headerlink" href="#using-jupyter-notebooks" title="Permalink to this headline">#</a></h2>
+<p>Throughout this material, you’ll need to type commands in cells in Jupyter notebooks, and run them.  This is done simply by clicking on a cell, then pressing <strong>shift-return</strong>, or alternatively clicking the play button up above.  Try this on the cell below, if you like - this notebook uses a <strong>bash</strong> kernel, so this simply runs the Linux ‘echo’ command to print a message:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Hello CESM!&quot;</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="documentation-hints-solutions">
+<h2>Documentation, Hints &amp; Solutions<a class="headerlink" href="#documentation-hints-solutions" title="Permalink to this headline">#</a></h2>
+<p>Since the goal of these lessons is to focus on the basics, and CESM is a very complex model, we’ll often provide additional information on a topic via links to online documentation.  These links will be found in light blue boxes throughout the material, which you can click on for more information if you wish to go deeper - they are <em>not</em> necessary to progress through the lessons though.  It’s more for advanced use, or if you’re just really curious about something.  Feel free to try out the link below, if you like:</p>
+<div class="alert alert-info" style="text-align: center;">
+<p><a class="reference external" href="https://escomp.github.io/CESM/versions/cesm2.1/html/">Additional documentation on CESM 2.1</a></p>
+</div><p>Another goal is for these lessons to be <em>interactive</em>; you’ll need to type in commands to complete the exercises.  In some cases, it can help to see a ‘hint’ as to what to do, so we’ll also provide these via light orange boxes that you can click on to show more information.  For example, click on the box below to see the hidden ‘hint’.</p>
+<div class="alert alert-warning">
+<details>   
+   <summary>
+        <img src="https://freesvg.org/img/bulb_on.png" width="20px">
+       <font face="Times New Roman" color='blue' size="4">How do you expand a hint?</font>
+    </summary>
+<p>You just did it by clicking on this box!  Congratulations!</details></p>
+</div><p>Finally, if you’re very stuck, <em>after</em> the entry box, we’ll have another clickable cell with a solution; if you’re <em>really</em> stuck, feel free to click this to get an answer to the exercise.  Feel free to try the box below as an example.</p>
 <div class="alert alert-success">
 <details>   
    <summary>
         <img src="https://freesvg.org/img/help-browser.png" width="20px">
-       <font face="Times New Roman" color='blue' size="4">Solution to Exercise 1</font>
+       <font face="Times New Roman" color='blue' size="4">Click here for a solution to the exercise</font>
     </summary>
-<p>create_newcase –case case01 –compset B1850 –res f19_g17</p>
-</details>
-</div><p>Great!  You’ve created the default version of your case. Let’s wait for everyone before going to step 2.
-<br><br></p>
-<hr class="docutils" />
-<h2> 2. Setting up the case</h2>
-<p>The next step in running CESM is to <strong>setup</strong> the case. This is done by going into the case you just created and running <code class="docutils literal notranslate"><span class="pre">./case.setup</span></code>.</p>
-<p>The command <code class="docutils literal notranslate"><span class="pre">./case.setup</span></code> sets up files that control the model’s behavior.</p>
-</section>
-<section id="exercise-2">
-<h3>Exercise 2<a class="headerlink" href="#exercise-2" title="Permalink to this headline">#</a></h3>
-<p>Customize the cell below with your own case name. Then run the cell. This sets up the case.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>case0
-./case.setup
-</pre></div>
-</div>
-</div>
-</div>
-<p><br>Great!  You’ve now used the <code class="docutils literal notranslate"><span class="pre">case.setup</span></code> command to set up your case.  Let’s wait for everyone before going to step 3.<br><br></p>
-</section>
-</section>
-<hr class="docutils" />
-<section id="compiling-the-case">
-<h2>3. Compiling the case<a class="headerlink" href="#compiling-the-case" title="Permalink to this headline">#</a></h2>
-<p>(need to fill in a lot more!)</p>
-<section id="exercise-3">
-<h3>Exercise 3<a class="headerlink" href="#exercise-3" title="Permalink to this headline">#</a></h3>
-<p>Run the cell below. This compiles the case. Be aware that this can take a few minutes.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>qcmd<span class="w"> </span>--<span class="w"> </span>./case.build<span class="w"> </span>
-</pre></div>
-</div>
-</div>
-</div>
-<p><br><br>
-Again, this will take a few minutes.  You’ll know this is complete when you see the line:</p>
-<blockquote>
-<div><p> MODEL BUILD HAS FINISHED SUCCESSFULLY</p>
-</div></blockquote>
-<p>If you see that, fantastic!  You’ve built your first CESM case!  Let’s wait for everyone before going to step 4.<br><br></p>
-</section>
-</section>
-<hr class="docutils" />
-<section id="running-your-case">
-<h2>4. Running your case<a class="headerlink" href="#running-your-case" title="Permalink to this headline">#</a></h2>
-<p>Running a case is also simple - we just issue the <code class="docutils literal notranslate"><span class="pre">case.submit</span></code> command.  This will start by checking that we have all of the necessary input data for our run, and downloading whatever is missing, and then it will perform the actual simulation - which we’ve configured to run for one month.</p>
-<section id="exercise-6">
-<h3>Exercise 6<a class="headerlink" href="#exercise-6" title="Permalink to this headline">#</a></h3>
-<p>Submit your simulation. Run the cell below.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./case.submit
-</pre></div>
-</div>
-</div>
-</div>
-<p>Well done. You are now running your first CESM simulation. We will look at the results of your simulation shortly.</p>
+<p>If this were a real exercise, we’d have a detailed answer with the commands needed, and why, as well as links to additional information.  But this is just an example.  Great job so far, keep going!</details></p>
+</div></section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">#</a></h2>
+<p>In this introduction, we laid out our approach to these lessons, and gave you a little bit of information on how Jupyter notebooks worked, and the style we’ll take with documentation, hints, and solutions.  Please go on to the next exercises, and we hope this is a helpful, fun way of learning CESM for you!</p>
+<section id="should-we-add-a-link-to-the-next-one-here-possibly">
+<h3>?? Should we add a link to the next one here?  Possibly.<a class="headerlink" href="#should-we-add-a-link-to-the-next-one-here-possibly" title="Permalink to this headline">#</a></h3>
 </section>
 </section>
 </section>
@@ -724,7 +647,7 @@ Again, this will take a few minutes.  You’ll know this is complete when you se
         },
         kernelOptions: {
             kernelName: "bash",
-            path: "./notebooks/basics"
+            path: "./notebooks"
         },
         predefinedOutput: true
     }
@@ -738,17 +661,17 @@ Again, this will take a few minutes.  You’ll know this is complete when you se
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="downloading.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../README.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Downloading CESM</p>
+            <p class="prev-next-title">Welcome to the CESM Tutorial</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../modifications/simple/start_stop.html" title="next page">
+    <a class='right-next' id="next-link" href="basics/downloading.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Starting &amp; stopping a run</p>
+        <p class="prev-next-title">Downloading CESM</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
@@ -772,7 +695,7 @@ Again, this will take a few minutes.  You’ll know this is complete when you se
     </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
 
 
   </body>
